@@ -14,7 +14,7 @@ with st.sidebar:
 os.environ['OPENAI_API_KEY'] = API
 
 # App framework
-st.title('🦜🔗 Essay Writer')
+st.title('🔗 Essay Writer Bot Made using Langchain 🦜')
 if API:
     prompt = st.text_input('Enter your topic here') 
 else:
