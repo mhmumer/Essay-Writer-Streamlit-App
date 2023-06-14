@@ -1,6 +1,7 @@
 import os 
 import streamlit as st 
 
+st.set_page_config(page_title='Essay Writer', layout='wide')
 
 with st.sidebar:
     API=st.text_input("Enter Your OpenAI API", type="password")
